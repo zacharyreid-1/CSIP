@@ -1,0 +1,19 @@
+/* Main */
+.main-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.main-top-title{
+    font-size: 36px;
+}
+
+.main-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
