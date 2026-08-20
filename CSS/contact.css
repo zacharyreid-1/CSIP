@@ -3,15 +3,66 @@
     text-align: center;
 }
 
-form{
-    text-align: center;
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin: 1% 0;
 }
 
-textarea{
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
     display: block;
-    
 }
 
-.contact-sec button{
-    text-align: center;
+.names{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-input{
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.email{
+    width: 500px;
+}
+
+.message{
+    width: 500px;
+    height: 100px;
+}
+
+/* ! */
+
+/* ! */
+
+.contact-input::placeholder{
+    font-size: 16px;
+}
+
+.submit{
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.submit:hover{
+    background-color: #b9b9b9;
+    cursor: pointer;
 }
