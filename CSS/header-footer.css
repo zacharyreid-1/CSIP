@@ -12,12 +12,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
     gap: 5%;
-}
-
-.nav-link{
-    text-decoration: none;
 }
 
 .nav-text{
@@ -45,10 +40,15 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 132px;
     gap: 10px;
     &:hover{
         cursor: pointer;
     }
+}
+
+.about-text{
+    width: 120px;
 }
 
 .about-us-dropdown-active{
@@ -75,7 +75,12 @@ nav{
     border-radius: 10px;
 }
 
-
+/* Main */
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer */
 footer{
